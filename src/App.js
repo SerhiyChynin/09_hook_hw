@@ -6,6 +6,7 @@ import Comment from './Comment';
 import Comment2 from './Comment2';
 import PlaceholderPostHook from './PlaceholderPostHook';
 import ComponentHook from './ComponentHook';
+import CommentsListHook from './CommentListHook';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <Comment/> */}
       {/* <Comment2 /> */}
       <PlaceholderPostHook/>
-      <ComponentHook/>
+      <ComponentHook />
+      <CommentsListHook/>
     </>
   );
 }

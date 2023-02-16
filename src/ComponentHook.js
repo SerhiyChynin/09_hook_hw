@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 
 
 export default function ComponentHook() {
@@ -24,12 +24,13 @@ export default function ComponentHook() {
                 <option value="3">3</option>
                 <option value="4">4</option>
             </select>
-             {data.map((item, index) => (
-                        <section key={item.id}>
-                            <p><b>{index + 1}. {item.email}</b></p>
-                            <p>{item.body}</p>
-                        </section>
-                    ))}
+            
+            {data.map((item, index) => (
+                    <section key={item.id}>
+                        <p><b>{index + 1}. {item.email}</b></p>
+                        <p>{item.body}</p>
+                    </section>
+                ))}
         </>
     )
 }
