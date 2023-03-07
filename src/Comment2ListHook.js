@@ -7,9 +7,8 @@ export default function Comments2ListHook (props) {
         let a = props.data;
         let evenPost = a.filter((item, index) => {
             if (index % 2 === 0) return (item);
-        })
+        })        
         setData(evenPost)
-        console.log(data)
     }
     useEffect(() => {
 	    console.log('effect');

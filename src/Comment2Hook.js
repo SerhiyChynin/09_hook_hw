@@ -1,6 +1,7 @@
 import CommentsListHook from "./CommentListHook"
 import React, { useState } from 'react';
 
+
 export default function Comment2Hook() {
 
     const [data, setData] = useState([]);
