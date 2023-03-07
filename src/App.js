@@ -4,7 +4,7 @@ import PlaceholderPost from './PlaceholderPost';
 import Comment from './Comment';
 import Comment2 from './Comment2';
 import PlaceholderPostHook from './PlaceholderPostHook';
-import ComponentHook from './ComponentHook';
+import CommentHook from './CommentHook';
 import CommentsListHook from './CommentListHook';
 import Comment2Hook from './Comment2Hook';
 
@@ -14,10 +14,10 @@ function App() {
     <>
       {/* <PlaceholderPost /> */}
       {/* <Comment/> */}
-      <PlaceholderPostHook/>
-      {/* <ComponentHook /> */}
+      {/* <PlaceholderPostHook/> */}
+      {/* <CommentHook /> */}
       <Comment2Hook/>
-      {/* <Comment2 /> */}
+      <Comment2 />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-export default function ComponentHook() {
+export default function CommentHook() {
 
     const [data, setData] = useState([]);
     

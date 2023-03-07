@@ -4,7 +4,8 @@ export default function Comments2ListHook (props) {
     const [data, setData] = useState([]);
 
     function onlyEven () {
-        let a = props.data;
+        console.log(data)
+        let a = data;
         let evenPost = a.filter((item, index) => {
             if (index % 2 === 0) return (item);
         })        
