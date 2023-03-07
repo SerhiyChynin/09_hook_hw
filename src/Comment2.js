@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-// import CommentsList from './CommentsList';
-// import CommentsListHook from './CommentsListHook';
+import Comments2ListHook from "./Comment2ListHook";
 
 class Comment2 extends Component {
     constructor() {
@@ -29,7 +28,7 @@ class Comment2 extends Component {
                     <option value="4">4</option>
                 </select>
                 <div>
-                    {/* <CommentsListHook data={this.state.data}/> */}
+                    <Comments2ListHook data={this.state.data}/>
                 </div>
             </div>
         );
